@@ -1,9 +1,9 @@
-.icon-bar {
+.nikky3 {
   position: fixed;
   top: 70%;
 }
 
-.icon-bar a {
+.nikky3 a {
   display: block;
   text-align: center;
   padding: 16px;
@@ -12,16 +12,16 @@
   font-size: 20px;
 }
 
-.icon-bar a:hover {
+.nikky3 a:hover {
   background-color: #000;
 }
 
-.whatsapp {
+.nikky {
   background: #4FCE5D;
   color: white;
 }
 
-.phone {
+.nikky2 {
   background: #55ACEE;
   color: white;
 }
