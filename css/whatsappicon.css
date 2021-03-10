@@ -1,10 +1,9 @@
 .icon-bar {
   position: fixed;
-  top: 60%;
+  top: 50%;
 }
 
 .icon-bar a {
-  display: block;
   text-align: center;
   padding: 16px;
   transition: all 0.3s ease;
