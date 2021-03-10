@@ -1,6 +1,7 @@
 .icon-bar {
   position: fixed;
   top: 50%;
+  display: block;
 }
 
 .icon-bar a {
