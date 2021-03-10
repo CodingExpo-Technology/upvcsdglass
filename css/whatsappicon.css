@@ -1,6 +1,7 @@
 .icon-bar {
   position: fixed;
   top: 80%;
+  overflow: auto; 
 }
 
 .icon-bar a {
