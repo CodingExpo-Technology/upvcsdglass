@@ -1,12 +1,12 @@
 
 .iconbar {
   position: fixed;
-  top: 100%
+  top: 90%
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.iconbar float {
+.iconbar a {
 display: block;
   text-align: center;
   padding: 16px;
@@ -14,21 +14,15 @@ display: block;
   color: white;
   font-size: 20px;
 }
-.float{
-	position: fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	rigth: 40px;
-	background-color:#4FCE5D;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  	font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  	z-index:100;
+.iconbar a:hover {
+  background-color: #000;
+}
+.whatsapp {
+  background: #4FCE5D;
+  color: white;
 }
 
-.my-float{
-	margin-top:16px;
+.phone {
+  background: #55ACEE;
+  color: white;
 }
