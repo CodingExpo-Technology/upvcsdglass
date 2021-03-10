@@ -1,16 +1,13 @@
 .icon-bar {
   position: fixed;
   top: 80%;
-  display: block;
 }
 
 .icon-bar a {
-  text-align: center;
   display: block;
   padding: 16px;
-  transition: all 0.3s ease;
   color: white;
-  font-size: 20px;
+  font-size: 10px;
 }
 
 .icon-bar a:hover {
