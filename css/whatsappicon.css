@@ -16,10 +16,10 @@
     -ms-flex-direction: column;
     flex-direction: column;
 }
-.ct-socials li {
+.ct-socials icons {
     padding: 0px 0;
 }
-.ct-socials li a {
+.ct-socials icons a {
     background: #25D366;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -38,7 +38,7 @@
     float: right;
     padding: 16px;
 }
-.ct-socials li a:hover {
+.ct-socials icons a:hover {
     width: 54px;
     padding-left: 0;
     text-decoration: none;
