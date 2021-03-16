@@ -172,6 +172,7 @@
 
 <html>
   <head>
+    <title>Title of the document</title>
     <style>
       * {
         box-sizing: border-box;
@@ -241,23 +242,20 @@
     </style>
   </head>
   <body>
-   
     <div class="openBtn">
       <button class="openButton" onclick="openForm()"><strong>Open Form</strong></button>
     </div>
     <div class="loginPopup">
       <div class="formPopup" id="popupForm">
         <form action="/action_page.php" class="formContainer">
-          <h2>Please Log in</h2>
-          <label for="email">
-            <strong>E-mail</strong>
-          </label>
-          <input type="text" id="email" placeholder="Your Email" name="email" required>
-          <label for="psw">
-            <strong>Password</strong>
-          </label>
-          <input type="password" id="psw" placeholder="Your Password" name="psw" required>
-          <button type="submit" class="btn">Log in</button>
+          <h1>Contact Form</h1>
+          <h4></h4>
+          <input type="text" id="email" placeholder="Your Name" name="email" required>
+         <input type="text" id="email" placeholder="Your Email" name="email" required>
+           <input type="text" id="email" placeholder="Your Phone Number" name="email" required>
+          <input type="text" id="email" placeholder="Your Website Starts with https://" name="email" required>
+          <input type="text" id="email" placeholder="Your Type Your Message Here.." name="email" required>
+          <button type="submit" class="btn">Submit</button>
           <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
         </form>
       </div>
