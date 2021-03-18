@@ -24,7 +24,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="css/whatsappicon.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		
+	
 
 </head>
 <body>
@@ -175,7 +175,47 @@
             a Quote</a>
 
         </div>
-
+	<div>
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="myModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+         </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">  
+        <form id="contact" action="" method="post">
+          <h3>Quick Contact</h3>
+          <h4>Contact us today, and get reply with in 24 hours!</h4>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+       
+        
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+	      </div>
        
         
         </div>
@@ -1257,24 +1297,45 @@
 "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
 				crossorigin="anonymous"></script> 
 
-		<script src= 
-"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-				integrity= 
-"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-				crossorigin="anonymous"></script> 
+ 
 		<script> 
-			// When doument is ready 
-			$(document).ready(function () { 
-				// SetTimeout function 
-				// Will execute the function 
-				// after 3 sec 
-				setTimeout(function () { 
-					$(".POPmain").css("display", "block"); 
-				}, 0); 
-			}); 
-			$(".submitId").click(function () { 
-				$(".POPmain").css("display", "none"); 
-			}); 
+			var enableCookies = true;
+
+if (enableCookies && getCookie('loadPopup') == '') {
+  $(window).load(function() {
+    $('#myModal').modal('show');
+  });
+  createCookie('loadPopup', true, 30);
+}
+
+
+function createCookie (name, value, days) {
+    var expires;
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toGMTString();
+    }
+    else {
+        expires = "";
+    }
+    document.cookie = name + "=" + value + expires + "; path=/";
+}
+
+function getCookie(c_name) {
+    if (document.cookie.length > 0) {
+        c_start = document.cookie.indexOf(c_name + "=");
+        if (c_start != -1) {
+            c_start = c_start + c_name.length + 1;
+            c_end = document.cookie.indexOf(";", c_start);
+            if (c_end == -1) {
+                c_end = document.cookie.length;
+            }
+            return unescape(document.cookie.substring(c_start, c_end));
+        }
+    }
+    return "";
+}
 		</script>
   </body>
 <!-- Mirrored from www.webdevia.com/themeforest/html-templates/windows-doors/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Feb 2021 21:10:22 GMT -->
