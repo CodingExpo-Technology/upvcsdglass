@@ -24,7 +24,137 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="css/whatsappicon.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<link rel="stylesheet"
+			href= 
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity= 
+"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous" /> 
 
+		<style> 
+			    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:#777;
+}
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+ .submitId { 
+position: relative; 
+top: 130px; 
+left: 180px; 
+} 
+</style>
 
 </head>
 <body>
@@ -175,219 +305,18 @@
             a Quote</a>
 
         </div>
-        <div>
-<html> 
-<head> 
+        <div class="request-quote right">
+		
+        </div>
+        
+        <div class="request-quote right">
+	<div class="container">        
+				
+<div class="POPmain"
+             style="display: none;"> 
+            <div id="popup"> 
 
-<meta charset="utf-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1"> 
-<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-<!--[if lt IE 9]> 
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
-<![endif]--> 
-<!--Bootstrap--> 
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-</head> 
-
-
-
-
-
-
-
-
-<style>
-    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
-
-* {
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-font-smoothing:antialiased;
-	-moz-font-smoothing:antialiased;
-	-o-font-smoothing:antialiased;
-	font-smoothing:antialiased;
-	text-rendering:optimizeLegibility;
-}
-
-body {
-	font-family:"Open Sans", Helvetica, Arial, sans-serif;
-	font-weight:300;
-	font-size: 12px;
-	line-height:30px;
-	color:#777;
-	background:#0CF;
-}
-
-.container {
-	max-width:400px;
-	width:100%;
-	margin:0 auto;
-	position:relative;
-}
-
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
-
-#contact {
-	background:#F9F9F9;
-	padding:25px;
-	margin:50px 0;
-}
-
-#contact h3 {
-	color: #F96;
-	display: block;
-	font-size: 30px;
-	font-weight: 400;
-}
-
-#contact h4 {
-	margin:5px 0 15px;
-	display:block;
-	font-size:13px;
-}
-
-fieldset {
-	border: medium none !important;
-	margin: 0 0 10px;
-	min-width: 100%;
-	padding: 0;
-	width: 100%;
-}
-
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
-	width:100%;
-	border:1px solid #CCC;
-	background:#FFF;
-	margin:0 0 5px;
-	padding:10px;
-}
-
-#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
-	-webkit-transition:border-color 0.3s ease-in-out;
-	-moz-transition:border-color 0.3s ease-in-out;
-	transition:border-color 0.3s ease-in-out;
-	border:1px solid #AAA;
-}
-
-#contact textarea {
-	height:100px;
-	max-width:100%;
-  resize:none;
-}
-
-#contact button[type="submit"] {
-	cursor:pointer;
-	width:100%;
-	border:none;
-	background:#0CF;
-	color:#FFF;
-	margin:0 0 5px;
-	padding:10px;
-	font-size:15px;
-}
-
-#contact button[type="submit"]:hover {
-	background:#09C;
-	-webkit-transition:background 0.3s ease-in-out;
-	-moz-transition:background 0.3s ease-in-out;
-	transition:background-color 0.3s ease-in-out;
-}
-
-#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
-
-#contact input:focus, #contact textarea:focus {
-	outline:0;
-	border:1px solid #999;
-}
-::-webkit-input-placeholder {
- color:#888;
-}
-:-moz-placeholder {
- color:#888;
-}
-::-moz-placeholder {
- color:#888;
-}
-:-ms-input-placeholder {
- color:#888;
-}
-</style>
-
-
-
-<body> 
-<div class="container">
-<div class="row">
-
-<!--INSERT BUTTON & MODAL WINDOW HERE-->
-<!--Button trigger for modal--> 
-<button  align="center" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Enquiry Form</button>
- 
-<!--Begin Modal Window--> 
-<div class="modal fade left" id="myModal"> 
-<div class="modal-dialog"> 
-<div class="modal-content"> 
-<div class="modal-header"> 
-<!--<h3 class="pull-left no-margin">Quick Contact</h3>-->
-
-<button type="button" class="close" data-dismiss="modal" title="Close"><span class="glyphicon glyphicon-remove"></span>
-</button> 
-</div> 
-<div class="modal-body">
-
-<!--INSERT CONTACT FORM HERE-->
-<!--NOTE: you will need to provide your own form processing script
-<form class="form-horizontal" role="form" method="post" action="form_to_email_script.php "> 
-<span class="required">* Required</span> 
-<div class="form-group"> 
-<label for="name" class="col-sm-3 control-label">
-<span class="required">*</span> Your Name:</label> 
-<div class="col-sm-9"> 
-<input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required> 
-</div> 
-</div> 
-<div class="form-group"> 
-<label for="email" class="col-sm-3 control-label">
-<span class="required">*</span> Your Email: </label> 
-<div class="col-sm-9"> 
-<input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required> 
-</div> 
-</div> 
-<div class="form-group"> 
-<label for="email" class="col-sm-3 control-label">
-<span class="required">*</span> Your Phone Number: </label> 
-<div class="col-sm-9"> 
-<input type="email" class="form-control" id="email" name="email" placeholder="Your Phone Number" required> 
-</div> 
-</div> 
-<div class="form-group"> 
-<label for="email" class="col-sm-3 control-label">
-<span class="required">*</span> Your Website Starts With https://: </label> 
-<div class="col-sm-9"> 
-<input type="email" class="form-control" id="email" name="email" placeholder="Your Website Starts With https://" required> 
-</div> 
-</div> 
-<div class="form-group"> 
-<label for="message" class="col-sm-3 control-label">
-<span class="required">*</span> Comments:</label> 
-<div class="col-sm-9"> 
-<textarea name="message" rows="4" required class="form-control" id="message" placeholder="Type Your Message Here..."></textarea> 
-</div> 
-</div> 
- 
-</div> 
-<div class="form-group"> 
-<div class="col-sm-offset-3 col-sm-6 col-sm-offset-3"> 
-<button type="submit" id="submit" name="submit" class="btn-lg btn-primary">SUBMIT</button> 
-</div> 
-</div> 
-<!--end Form-->
-
-<div class="container">  
-        <form id="contact" action="" method="post">
+  <form id="contact" action="" method="post">
           <h3>Quick Contact</h3>
           <h4>Contact us today, and get reply with in 24 hours!</h4>
           <fieldset>
@@ -405,39 +334,21 @@ fieldset {
           <fieldset>
             <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
           </fieldset>
-          <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-          </fieldset>
-        </form>
-      </div>
-</div>
-<div class="modal-footer"> 
-<div class="col-xs-10 pull-left text-left text-muted"> 
-<small><strong>Privacy Policy:</strong>
-Lorem ipsum dolor sit amet consectetur adipiscing elit. 
-Mauris vitae libero lacus, vel hendrerit nisi! Maecenas quis 
-velit nisl, volutpat viverra felis. Vestibulum luctus mauris 
-sed sem dapibus luctus.</small> 
-</div> 
-<button class="btn-sm close" type="button" data-dismiss="modal">Close</button> 
-</div> 
-</div> 
-</div> 
-</div>
+		          </form>
 
-
-</div> 
-</div> 
-<!--latest jQuery--> 
-<script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script> 
-<!--Bootstrap--> 
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
-</body> 
-</html>
-        </div>
+                <button class= 
+ "submitId btn btn-primary font-weight-bold mt-5"> 
+                    Submit 
+                </button> 
+                <button class= 
+"submitId btn btn-primary text-center font-weight-bold mt-5"> 
+                    Close 
+                </button> 
+            </div> 
+        </div> 		  
+       
         
-        <div class="request-quote right">
-
+      </div>
         </div>
 
 
@@ -1505,6 +1416,37 @@ sed sem dapibus luctus.</small>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 <script src="js/wd_owlcarousel.js"></script>
 <script src="js/scripts.js"></script>
+			<script src= 
+"https://code.jquery.com/jquery-3.2.1.slim.min.js"
+				integrity= 
+"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+				crossorigin="anonymous"></script> 
+
+		<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+				integrity= 
+"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+				crossorigin="anonymous"></script> 
+
+		<script src= 
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+				integrity= 
+"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+				crossorigin="anonymous"></script> 
+		<script> 
+			// When doument is ready 
+			$(document).ready(function () { 
+				// SetTimeout function 
+				// Will execute the function 
+				// after 3 sec 
+				setTimeout(function () { 
+					$(".POPmain").css("display", "block"); 
+				}, 0); 
+			}); 
+			$(".submitId").click(function () { 
+				$(".POPmain").css("display", "none"); 
+			}); 
+		</script>
   </body>
 <!-- Mirrored from www.webdevia.com/themeforest/html-templates/windows-doors/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Feb 2021 21:10:22 GMT -->
 </html>
